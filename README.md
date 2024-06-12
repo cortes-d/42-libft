@@ -62,7 +62,7 @@ Own implementation of some standard C library functions, non-standard functions 
 |ft_split|Extracts the substrings delimited by a given character.|
 |ft_itoa|Converts an integer to a string.|
 |ft_strmapi|Applies a function to each character of a string.|
-|ft_striteri||
+|ft_striteri|Applies a function to each character of a string passed by reference.|
 |ft_putchar_fd|Prints a character to the file descriptor.|
 |ft_putstr_fd|Prints a string to the file descriptor.|
 |ft_putendl_fd|Prints a string to the file descriptor with a newline.|
