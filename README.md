@@ -12,6 +12,13 @@ Own implementation of some standard C library functions, non-standard functions 
 
 ## Usage
 
+### Categories
+1. Functions from `<ctype.h>`.  
+2. Functions from `<string.h>`.  
+3. Functions from `<stdlib.h>`.  
+4. Non-standard functions.  
+5. Linked list functions.  
+
 ### Functions
 
 |Name|Description|Category|
@@ -59,13 +66,7 @@ Own implementation of some standard C library functions, non-standard functions 
 |ft_lstdelone|Deletes a node.|5|
 |ft_lstclear|Deletes a node and all the succeeding nodes.|5|
 |ft_lstiter|Applies a function to the content of each node of a list.|5|
-|ft_lstmap|Creates a copy of a list. A function is applied to each of its nodes.|5|
-
-1: Functions from `<ctype.h>`.  
-2: Functions from `<string.h>`.  
-3: Functions from `<stdlib.h>`.  
-4: Non-standard functions.  
-5: Linked list functions.    
+|ft_lstmap|Creates a copy of a list. A function is applied to each of its nodes.|5|  
 
 <!--## Roadmap-->
 <!--## Contributing-->
