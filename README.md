@@ -21,7 +21,7 @@ Own implementation of some standard C library functions, non-standard functions 
 
 ### Functions
 
-|Name|Description|Category|
+|Name|Description|Cat.|
 |---|---|---|
 |ft_isalpha|Checks whether the given character is an alphabetic letter.|1|
 |ft_isdigit|Checks whether the given character is a digit.|1|
