@@ -6,11 +6,11 @@
 /*   By: dcortes <dcortes@student.42lausanne.ch>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/09 12:03:46 by dcortes           #+#    #+#             */
-/*   Updated: 2024/06/12 18:01:23 by dcortes          ###   ########.fr       */
+/*   Updated: 2024/06/12 18:05:03 by dcortes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
+#include <stddef.h>
 
 size_t	ft_strlen(const char *s)
 {
