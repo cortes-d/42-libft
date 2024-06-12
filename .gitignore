@@ -3,6 +3,7 @@
 
 # Build artifacts
 **/*.o
+libft.a
 
 # User specific
 .vscode/
