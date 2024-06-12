@@ -6,10 +6,11 @@
 /*   By: dcortes <dcortes@student.42lausanne.ch>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/15 21:59:21 by dcortes           #+#    #+#             */
-/*   Updated: 2024/06/12 20:16:33 by dcortes          ###   ########.fr       */
+/*   Updated: 2024/06/12 21:02:48 by dcortes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <stdlib.h>
 #include "libft.h"
 
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))

@@ -6,10 +6,11 @@
 /*   By: dcortes <dcortes@student.42lausanne.ch>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/15 20:11:20 by dcortes           #+#    #+#             */
-/*   Updated: 2024/06/12 20:33:45 by dcortes          ###   ########.fr       */
+/*   Updated: 2024/06/12 21:00:38 by dcortes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <stdlib.h>
 #include "libft.h"
 
 static size_t	count_substrings(char const *s, char c)

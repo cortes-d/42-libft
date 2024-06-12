@@ -6,11 +6,12 @@
 /*   By: dcortes <dcortes@student.42lausanne.ch>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/15 17:33:45 by dcortes           #+#    #+#             */
-/*   Updated: 2024/06/12 19:11:30 by dcortes          ###   ########.fr       */
+/*   Updated: 2024/06/12 20:59:59 by dcortes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
+#include <stdlib.h>
+#include "libft.h"
 
 char	*ft_substr(char const *s, unsigned int start, size_t len)
 {

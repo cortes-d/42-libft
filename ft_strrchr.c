@@ -6,9 +6,11 @@
 /*   By: dcortes <dcortes@student.42lausanne.ch>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/10 14:27:40 by dcortes           #+#    #+#             */
-/*   Updated: 2024/06/12 18:42:14 by dcortes          ###   ########.fr       */
+/*   Updated: 2024/06/12 20:59:13 by dcortes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <stdlib.h>
 
 char	*ft_strrchr(const char *s, int c)
 {

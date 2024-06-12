@@ -6,11 +6,12 @@
 /*   By: dcortes <dcortes@student.42lausanne.ch>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/15 16:57:18 by dcortes           #+#    #+#             */
-/*   Updated: 2024/06/12 18:52:58 by dcortes          ###   ########.fr       */
+/*   Updated: 2024/06/12 20:59:30 by dcortes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
+#include "libft.h"
 
 char	*ft_strdup(const char *s1)
 {
