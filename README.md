@@ -3,6 +3,10 @@
 ## About
 Own implementation of some standard C library functions, non-standard functions including functions to manage linked lists.
 
+### Note
+- The library serves as a basis for other projects.
+- The goal is to continuously improve it and eventually add new functions.
+
 <!--
 ## Getting started
 ### Prerequisites
@@ -75,6 +79,6 @@ Own implementation of some standard C library functions, non-standard functions 
 <!--## Aknowledgements-->
 
 ---
-*42 is a coding school that emphasizes on project-based learning and peer-to-peer education.*
+*42 is a coding school that emphasizes on project-based and peer-to-peer learning.*
 
-*The project complies with the 42 norm. The latest norm can be found on the [42 intra site](https://meta.intra.42.fr/articles/the-norm-v4) (requires authentication)*.
+*The project complies with the 42 norm. The latest norm can be found on the [42 repository](https://github.com/42School/norminette/tree/master/pdf)*.
