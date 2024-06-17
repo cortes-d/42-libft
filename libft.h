@@ -6,7 +6,7 @@
 /*   By: dcortes <dcortes@student.42lausanne.ch>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/12 17:19:12 by dcortes           #+#    #+#             */
-/*   Updated: 2024/06/12 23:22:56 by dcortes          ###   ########.fr       */
+/*   Updated: 2024/06/18 00:26:34 by dcortes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,6 +28,8 @@ int		ft_islower(int c);
 int		ft_isupper(int c);
 int		ft_tolower(int c);
 int		ft_toupper(int c);
+int		ft_isspace(int c);
+int		ft_isxdigit(int c);
 
 /*
  * Reimplemented functions from <string.h>
@@ -69,6 +71,7 @@ void	ft_putchar_fd(char c, int fd);
 void	ft_putstr_fd(char *s, int fd);
 void	ft_putendl_fd(char *s, int fd);
 void	ft_putnbr_fd(int nb, int fd);
+int		ft_atoi_base(char *str, char *charset);
 
 /*
  * Linked list functions
