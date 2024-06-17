@@ -6,7 +6,7 @@
 /*   By: dcortes <dcortes@student.42lausanne.ch>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/10 15:40:21 by dcortes           #+#    #+#             */
-/*   Updated: 2024/06/13 10:04:29 by dcortes          ###   ########.fr       */
+/*   Updated: 2024/06/17 22:15:24 by dcortes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ int	ft_atoi(const char *str)
 	sign = 1;
 	digit = 0;
 	number = 0;
-	while ((str[i] >= 9 && str[i] <= 13) || str[i] == 32)
+	while (ft_isspace(str[i]))
 		i++;
 	if (str[i] == '-' || str[i] == '+')
 	{
