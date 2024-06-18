@@ -6,7 +6,7 @@
 /*   By: dcortes <dcortes@student.42lausanne.ch>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/17 22:42:35 by dcortes           #+#    #+#             */
-/*   Updated: 2024/06/18 00:25:44 by dcortes          ###   ########.fr       */
+/*   Updated: 2024/06/18 14:45:47 by dcortes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,8 +15,6 @@
 
 static int	is_valid_base(char *charset)
 {
-	char	*ptr;
-
 	if (!charset || ft_strlen(charset) <= 1)
 		return (0);
 	if (ft_strchr(charset, '+') || ft_strchr(charset, '-'))
